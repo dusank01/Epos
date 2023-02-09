@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAM Service</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_container">
+
+                <a href="index.html" ><img src="img/logob.png" alt="logo"> </a>
+                <div>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <div class="navbar_menu"> 
+                    <a href="index.html" class="navbar_link">Početna</a>
+                    <a href="o_nama.html" class="navbar_link">O nama</a>
+                    <a href="cenovnik.html" class="navbar_link">Cenovnik</a>
+                    <a href="kontakt.html" class="navbar_link">Kontakt</a>
+                </div>
+        </div>
+    </nav>
+<div class="tata" style="background-image: url('img/slika1.jpg'); background-size: 100%; background-repeat: no-repeat;">
+    <div class="open_content">
+        
+    <p>Imate problem sa računarom?<br> Na pravom ste mestu!</p>
+        <a href="kontakt.html"><button class="button">Kontaktirajte nas!</button></a>
+    </div>
+</div>
+    <h2 class="naslovUsluge">Naše usluge</h2>
+    <div class="usluge">
+        <div class="usluga">
+            <h4>Ciscenje</h4>
+            <img src="./img/slikaDrzac.png" alt="" srcset="">
+            <p class="uslugeTxt hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ipsam, in eveniet alias, pariatur minima dolores hic sint nemo enim dolorum repudiandae esse consequatur! Non quia eum quo voluptatibus in.
+            Iste in pariatur quaerat harum? Aliquam laudantium nulla ut vitae saepe aliquid quis reprehenderit, provident quasi officia consequuntur inventore tempore doloribus enim. Ducimus nam iure, totam quae officiis ratione deserunt.</p>
+        </div>
+        <div class="usluga">
+            <h4>Instalacija OS</h4>
+            <img src="./img/slikaDrzac.png" alt="" srcset="">
+            <p class="uslugeTxt hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, odit dolores magnam iure officiis voluptas explicabo, itaque veniam rerum perferendis provident eveniet. Soluta vero nisi vitae! Incidunt molestiae quidem exercitationem!
+            Officiis omnis rerum quisquam maiores vitae non, adipisci ut tenetur soluta architecto velit ipsa nihil perferendis illum mollitia, pariatur consequatur delectus ducimus cum. Voluptate asperiores amet, minus magnam sint praesentium!</p>
+        </div>
+        <div class="usluga">
+            <h4>Popravka</h4>
+            <img src="./img/slikaDrzac.png" alt="" srcset="">
+            <p class="uslugeTxt hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo voluptas minima sint, placeat magni omnis sapiente facere, assumenda inventore veniam beatae amet dicta commodi exercitationem numquam, autem quam excepturi.
+            Facere porro expedita itaque consectetur at ea minima iure repudiandae tenetur deleniti officiis qui, nulla numquam exercitationem quas dolorem eius rerum dolor fugiat! Unde consequuntur molestias, et eius commodi velit!</p>
+        </div>
+        <div class="usluga">
+            <h4>Zamena baterije</h4>
+            <img src="./img/slikaDrzac.png" alt="" srcset="">
+            <p class="uslugeTxt hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dolore, architecto reiciendis facere illo assumenda ipsum, est, ratione eos commodi deserunt? Nobis accusamus molestias quae rerum illum amet? Harum, numquam.
+            Voluptas aut et, deserunt, velit dignissimos repellendus libero labore magnam nostrum inventore obcaecati exercitationem hic corrupti molestias dolore unde modi distinctio. Nam porro maiores saepe facere impedit modi quod delectus.</p>
+        </div>
+    </div>
+    
+
+<div class="footer">
+<div class="about">
+        <a href="index.html" ><img id="footerlogo" src="img/logoc.png" alt="logo"> </a>
+    <div id="address">
+        <p>Fakultet organizacionih nauka<br>Jove Ilića 154<br>11000,Beograd</p>
+    </div>
+</div>
+<div class="menu">
+    <ul>
+    <li><a href="index.html" class="navbar_link">Početna</a></li>
+    <li><a href="o_nama.html" class="navbar_link">O nama</a></li>
+    <li><a href="cenovnik.html" class="navbar_link">Cenovnik</a></li>
+    <li><a href="kontakt.html" class="navbar_link">Kontakt</a></li>
+</ul>
+</div>
+<div class="contact">
+    <p id="mobile">Kontakt telefon:<br>061/111-11-11<br>Kontakt mejl:<br>damservice@gmail.com</p>
+</div>
+</div>
+<script>
+    var slike= document.querySelectorAll(".usluga");
+    slike.forEach(slika => {
+        slika.addEventListener("click", ()=>{
+            slika.querySelector(".uslugeTxt").classList.toggle("hidden");
+        })
+    });
+</script>
+</body>
+</html>

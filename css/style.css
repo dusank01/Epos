@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial",sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #cd2a2a;
+    height: 80px;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 50px 0 0;
+}
+
+
+
+
+
+.navbar_link{
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+    transition: color 0.3s;
+}
+
+.navbar_link:hover{
+    color:#000000;
+}
+
+.button{
+    outline: none;
+    border: none;
+    padding: 3.5vh 6vw;
+    background:linear-gradient(to right,#e7ddcf,#cd2a2a);
+    color:white;
+    font-size: 3vw;
+    border-radius: 1vw;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button:hover{
+    color: #000000;
+    font-weight: 600;
+}
+.tata{
+    display: flex;
+    aspect-ratio: 1200 / 423;
+}
+.open_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+    padding: 5vh 5vw;
+}
+
+.open_content p{
+    font-size: 3vw;
+    color: white;
+    font-weight: 550;
+}
+
+.title{
+    font-size: 7vw;
+    color: white;
+}
+
+.title:hover{
+    color:#000000;
+}
+
+.footer{
+    background-color: transparent;
+    width: 100%;
+    height: 20vw;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about
+{
+
+    height: 14vw;
+    width: 25vw;
+    float: left;
+    
+}
+
+.menu {
+    list-style: circle;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5vw;
+    height: 14vw;
+    width: 50vw;
+    float: left;
+    text-decoration:italic;
+    line-height: 1.6;
+   
+}
+.contact{
+    display: flex;
+    align-items: center;
+    height: 14vw;
+    width: 25vw;
+    float: left;
+    
+}
+#address{
+    height: 50%;
+    padding-left: 1vw;
+    padding-bottom: 0.5vh;
+    font-size: 1.3vw;
+    font-style: italic;
+    color: white;
+    line-height: 1.6;
+}
+
+#mobile{
+    height: 60%;
+    padding-right: 1vw;
+    padding-left: 2vw;
+    padding-bottom: 0.5vh;
+    font-size: 1.3vw;
+    font-style: italic;
+    color: white;
+    line-height: 1.6;
+}
+#footerlogo{
+    height: 50%;
+    width: auto;
+}
+.team{
+    height: 38vw;
+    width: 100%;
+}
+
+.subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 800;
+    color: #cd2a2a;
+    padding: 1vw 0 0 0;
+}
+
+.subtitle:hover{
+    color:#000000;
+}
+
+.photos{
+    padding: 1vw 2vw;
+    width: 100%;
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    align-items: center;
+}
+.slika{
+    height: 21vw;
+    width: 18vw;
+    text-align: center;
+    
+}
+.slika img{
+    cursor: pointer;
+    width: 18vw;
+    position: relative;
+}
+.slika p{
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+.oncont{
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic{
+    width: 50%;
+}
+.pic img{
+    width: 100%;
+    padding: 0 2vw;
+}
+.txt{
+    font-size: 1.8vw;
+    padding: 0 2vw;
+}
+
+
+.kontakt{
+    display: flex;
+}
+
+.form{
+    display: flex;
+    width: 50%;
+    height: 80vw;
+    padding: 1vh 1vw;
+    
+}
+
+#contactpic{
+    padding: 5vw;
+    width: 40vw;
+}
+
+
+input.btn { 
+    height: 2vw;
+    color: #000000; 
+    font-weight:600;
+    background-color: #cd2a2a; 
+    border: 1px outset #000000; 
+    padding: 1px 2px; 
+    }
+
+    input.txt { 
+        color: #000000; 
+        background-color: #ee8967; 
+        padding: 0.3vw;
+        border: 1px inset #cd2a2a; 
+        width: 40vw; 
+        height: 3.5vw;
+        } 
+
+
+       #napomena{
+        color: #000000; 
+        background-color: #ee8967;
+        padding: 0.3vw;
+        border: 1px inset #cd2a2a; 
+        width: 40vw; 
+        height: 12vw;
+        display:inline-block;
+        text-align: justify;
+        vertical-align: text-top;
+        }
+        
+    #button{
+        margin: 3vw 0;
+        padding: 2vw;
+        display: flex;
+        height: 8vw;
+        align-items: center;
+    }
+
+#contact{
+    display: flex;
+    align-items: center;
+}
+
+label {
+font-size: 1.5vw;
+font-weight: 600;
+}
+
+label:hover{
+    color: #cd2a2a;
+}
+.cenovnik{
+    display: flex;
+    justify-content: center;
+    padding: 3vw 0;
+}
+
+table, th, td {
+    border: 1px solid #cd2a2a;
+    text-align: center; 
+    padding: 0.2em; 
+    height: 4vw;
+    font-size: 2vw;
+  }
+
+  th{
+    font-size: 5vw;
+    height: 2vw;
+    width: 35vw;
+  }
+
+  td{
+    font-size: 3vw;
+    height: 1.5vw;
+  }
+
+  th:hover{
+    color: #cd2a2a;
+  }
+
+  .call{
+    padding: 1vw;
+    color: #cd2a2a;
+    font-size: 3vw;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .usluge{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+
+  }
+
+  body{  
+    background-image: linear-gradient(135deg, #cd2a2a, #f11818ed);
+  }
+
+  .usluga{
+    width: 20rem;
+    height: fit-content;
+    margin: 0;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: transparent;
+  }
+
+  .usluga > h4{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 4vw;
+  }
+  .uslugeTxt{
+    visibility: visible;
+    height: fit-content;
+    margin: 0rem 1rem 1rem 1rem;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 10ms;
+    font-size: 1vw;
+    font-weight: 550;
+    font-style: italic;
+  }
+
+  .hidden{
+    visibility: hidden;
+    height: 0rem;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 10ms;
+  }
+  .usluga > img {
+    margin:1rem;
+    width: 90%;
+  }
+    
+.naslovUsluge{
+    margin-top: 1rem;
+    text-align: center;
+    color: #e7ddcf;
+    font-weight: 550;
+    font-size: 6vw;
+}
+
+
+
+
+
+
+
+
+@media (max-width:730px) {
+    .navbar_menu{
+        position: absolute;
+        top:-1000px;
+    }
+    .bar{
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin:5px 0;
+    }
+}
+@media (max-width:500px){
+    .button{
+        padding: 1.8vh 3vw;
+    }
+    input.txt{
+        height: 4.5vw;
+       
+    }
+    #napomena{
+        height: 15vw;
+    }
+}
