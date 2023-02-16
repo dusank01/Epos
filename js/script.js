@@ -47,14 +47,14 @@ $(document).ready(function(){
       } 
       else{
       alert("\nIme prezime:" + ime + "\nImejl:" + mail + "\nTelefon:" + telefon + "\nModel:" + model + "\nVaš problem:\n" + napomena + "\n\nProverite unete podatke!");
-      
+      alert("Vaša kontakt forma je primljena. Očekujte odgovor u najkraćem roku!\nHvala na ukazanom poverenju")
       }
       document.getElementById("imeprez").value="";
       document.getElementById("mail").value="";
       document.getElementById("telefon").value="";
       document.getElementById("model").value="";
       document.getElementById("napomena").value="";
-      alert("Vaša kontakt forma je primljena. Očekujte odgovor u najkraćem roku!\nHvala na ukazanom poverenju")
+      
     }
 
 

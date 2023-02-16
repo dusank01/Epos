@@ -33,6 +33,7 @@ html {
   color: white;
   margin-right: 35px;
   transition: color 0.3s;
+  
 }
 
 .navbar_link:hover {
@@ -491,7 +492,7 @@ body {
 }
 
 
-@media (max-width: 730px) {
+@media (max-width: 735px) {
   .navbar_menu {
     position: absolute;
     top: -1000px;
