@@ -231,20 +231,26 @@ height: fit-content;}
   text-align: center;
   margin-top: 1rem;
 }
+
 .slika img {
   cursor: pointer;
   width: 18rem;
   position: relative;
+  opacity: 0.8;
 }
+
 .slika p {
   font-weight: 600;
   font-size: 1.2rem;
 }
 
+.slika img:hover{
+  opacity: 1;
+}
+
 .oncont {
   width: 100%;
   display: flex;
-  float: left;
   justify-content: center;
   align-items: center;
 }
@@ -410,6 +416,7 @@ th:hover {
 
 body {
   background-image: linear-gradient(135deg, #cd2a2a, #f11818ed);
+  overflow-x: hidden;
 }
 
 .usluga{

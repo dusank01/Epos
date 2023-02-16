@@ -43,32 +43,32 @@
     </div>
     <div class="kontakt">
     <div class="form">
-        <form method="post" action="fields.html"> 
+        <form id="forma"> 
             
             <div > 
             <label for="name">Ime i prezime</label><br> 
-            <input type="text" name="name" id="name" class="txt" /> </div> 
+            <input type="text" name="name" id="imeprez" class="txt" /> </div> 
             <div >
             <label for="name">Mejl adresa</label><br> 
-            <input type="text" name="name" id="name" class="txt" /> </div> 
+            <input type="text" name="name" id="mail" class="txt" /> </div> 
             <div >
             <label for="name">Kontakt telefon</label><br> 
-            <input type="text" name="name" id="name" class="txt" /> </div> 
+            <input type="text" name="name" id="telefon" class="txt" /> </div> 
             <div >
             <label for="name">Model uređaja</label><br> 
-            <input type="text" name="name" id="name" class="txt" /> </div>
+            <input type="text" name="name" id="model" class="txt" /> </div>
+            <div >
+            <label for="name">Objasnite nam vaš problem:</label><br> 
+            <textarea id="napomena" name="text" rows="10" cols="70" style="font-size: 1.8vw;"></textarea> </div> 
             <div>
                 <label>Da li ste bili naš korisnik?<br></label>
                 <label for="customer">Da</label>
-                <input type="radio" id="customer" name="customer" value="yes" />
+                <input type="radio" id="radioda" name="customer" value="yes" />
                 <label for="customer">Ne</label>
-                <input type="radio" id="customer" name="customer" value="no" />
+                <input type="radio" id="radione" name="customer" value="no" />
             </div>
-            <div >
-            <label for="name">Napomena</label><br> 
-            <textarea id="napomena" name="text" rows="10" cols="70" style="font-size: 1.8vw;"></textarea> </div> 
             <div id="button">
-            <input type="submit" name="btnSubmit" id="btnSubmit" value="Pošalji" class="button" />
+            <input type="button" name="btnSubmit" id="btnSubmit" onclick="myFunction()" value="Pošalji" class="button" />
             </div>
             </form>
             
