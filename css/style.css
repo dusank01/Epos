@@ -47,9 +47,8 @@ html {
   background-color: #000000;
   width: 40%;
   height: fit-content;
-  transition: 0.3s;
-  transform: translateX(200%);
   z-index: 100;
+  visibility: hidden;
 }
 
 .sidebar > ul{
@@ -68,7 +67,7 @@ html {
 }
 
 .showme{
-  transform: translateX(-0%);
+  visibility: visible;
 }
 
 .burger{
@@ -301,10 +300,11 @@ input.btn {
 input.txt {
   color: #000000;
   background-color: #ee8967;
-  padding: 0.3vw;
+  padding: 0.5vw;
   border: 1px inset #cd2a2a;
   width: 40vw;
   height: 3.5vw;
+  font-size: 2.5vw;
 }
 
 #napomena {
@@ -317,6 +317,7 @@ input.txt {
   display: inline-block;
   text-align: justify;
   vertical-align: text-top;
+  font-size: 2.5vw;
 }
 
 #button {
