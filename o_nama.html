@@ -6,18 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>O nama</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   </head>
   <body>
     <nav class="navbar">
       <div class="navbar_container">
         <a href="index.html"><img src="img/logob.png" alt="logo" /> </a>
 
-        <div>
+        <div class="burger">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
         </div>
-
+        <div class="sidebar">
+          <ul>
+          <li><a  href="index.html">Početna</a></li>
+          <li><a  href="o_nama.html">O nama</a></li>
+          <li><a  href="cenovnik.html">Cenovnik</a></li>
+          <li><a  href="kontakt.html">Kontakt</a></li>
+        </ul>
+        </div>
         <div class="navbar_menu">
           <a href="index.html" class="navbar_link">Početna</a>
           <a href="o_nama.html" class="navbar_link">O nama</a>
@@ -74,6 +82,9 @@
         <img src="img/poc2.png" alt="slika" />
       </div>
     </div>
+    <div class="mapa">
+      <img src="img/mapa1.png" alt="mapa">
+  </div>
     <div class="footer">
       <div class="about">
         <a href="index.html"
@@ -84,6 +95,7 @@
           <p>
             Fakultet organizacionih nauka<br />Jove Ilića 154<br />11000,Beograd
           </p>
+          
         </div>
       </div>
       <div class="menu">
@@ -96,9 +108,10 @@
       </div>
       <div class="contact">
         <p id="mobile">
-          Kontakt telefon:<br />061/111-11-11<br />Kontakt mejl:<br />damservice@gmail.com
+          Kontakt telefon:<br />061/111-11-11<br />Kontakt imejl:<br />damservice@gmail.com
         </p>
       </div>
     </div>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>

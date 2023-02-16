@@ -6,18 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DAM Service</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar_container">
 
                 <a href="index.html" ><img src="img/logob.png" alt="logo"> </a>
-                <div>
+                <div class="burger">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
-
+                 <div class="sidebar">
+                    <ul>
+                    <li><a  href="index.html">Početna</a></li>
+                    <li><a  href="o_nama.html">O nama</a></li>
+                    <li><a  href="cenovnik.html">Cenovnik</a></li>
+                    <li><a  href="kontakt.html">Kontakt</a></li>
+                  </ul>
+                  </div>
+                 
                 <div class="navbar_menu"> 
                     <a href="index.html" class="navbar_link">Početna</a>
                     <a href="o_nama.html" class="navbar_link">O nama</a>
@@ -33,6 +42,7 @@
         <a href="kontakt.html"><button class="button">Kontaktirajte nas!</button></a>
     </div>
 </div>
+
     <h2 class="naslovUsluge">Naše usluge</h2>
     <div class="usluge">
         <div class="usluga">
@@ -73,13 +83,17 @@
 
     </div>
     
-
+    <div class="mapa">
+        <img src="img/mapa1.png" alt="mapa">
+    </div>
 <div class="footer">
 <div class="about">
         <a href="index.html" ><img id="footerlogo" src="img/logoc.png" alt="logo"> </a>
     <div id="address">
         <p>Fakultet organizacionih nauka<br>Jove Ilića 154<br>11000,Beograd</p>
+        
     </div>
+    
 </div>
 <div class="menu">
     <ul>
@@ -88,11 +102,13 @@
     <li><a href="cenovnik.html" class="navbar_link">Cenovnik</a></li>
     <li><a href="kontakt.html" class="navbar_link">Kontakt</a></li>
 </ul>
+
 </div>
 <div class="contact">
-    <p id="mobile">Kontakt telefon:<br>061/111-11-11<br>Kontakt mejl:<br>damservice@gmail.com</p>
+    <p id="mobile">Kontakt telefon:<br>061/111-11-11<br>Kontakt imejl:<br>damservice@gmail.com</p>
 </div>
 </div>
+<script src="js/script.js"></script>
 <script>
     var slike= document.querySelectorAll(".usluga");
     slike.forEach(slika => {

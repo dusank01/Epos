@@ -6,17 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Konaktiraj nas</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar_container">
                 <a href="index.html" ><img src="img/logob.png" alt="logo"> </a>
 
-                <div>
+                <div class="burger">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
+                <div class="sidebar">
+                    <ul>
+                    <li><a  href="index.html">Početna</a></li>
+                    <li><a  href="o_nama.html">O nama</a></li>
+                    <li><a  href="cenovnik.html">Cenovnik</a></li>
+                    <li><a  href="kontakt.html">Kontakt</a></li>
+                  </ul>
+                  </div>
 
                 <div class="navbar_menu"> 
                     <a href="index.html" class="navbar_link">Početna</a>
@@ -66,13 +75,16 @@
     </div>
     <div id="contact">
         <img id="contactpic" src="img/telefon.png" alt="picture">
-    <p>Budući da su računari I laptopovi deo svakodnevnice jednog čoveka, zakazujemo popravku u roku od 1 do 2 dana, a uslugu vršimo istog tog dana kada nam donesete računar ili laptop I u zavisnosti od kvara I težine usluge Vam u najkraćem mogućem roku popravljamo uredjaje.</br></br>Nasa servis podrška je tu u svakom trenutku za vas. Tu smo da odgovorimo na sva Vaša pitanja u vezi popravke računara, nedoumica u vezi sa korišćenjem I damo savete za adekvatno korišćenje opreme. Budite slobodni da nas kontaktirate u svakom trenutku I zakažetepopravku Vašeg računara.
-    </br>
-    </br> mail: damservice@gmail.com
-  </br>Adresa: Jove Ilića 154, Beograd
-  </br>Kontakt telefon: 061/111-11-11
-  </br>Servis podrška: 061/111-11-23</p>
+        <p>Budući da su računari I laptopovi deo svakodnevnice jednog čoveka, zakazujemo popravku u roku od 1 do 2 dana, a uslugu vršimo istog tog dana kada nam donesete računar ili laptop I u zavisnosti od kvara I težine usluge Vam u najkraćem mogućem roku popravljamo uredjaje.</br></br>Nasa servis podrška je tu u svakom trenutku za vas. Tu smo da odgovorimo na sva Vaša pitanja u vezi popravke računara, nedoumica u vezi sa korišćenjem I damo savete za adekvatno korišćenje opreme. Budite slobodni da nas kontaktirate u svakom trenutku I zakažetepopravku Vašeg računara.
+        </br>
+        </br>Imejl: damservice@gmail.com
+      </br>Adresa: Jove Ilića 154, Beograd
+      </br>Kontakt telefon: 061/111-11-11
+      </br>Servis podrška: 061/111-11-23</p>
     </div>
+</div>
+<div class="mapa">
+    <img src="img/mapa1.png" alt="mapa">
 </div>
     <div class="footer">
         <div class="about">
@@ -91,9 +103,10 @@
         </ul>
         </div>
         <div class="contact">
-            <p id="mobile">Kontakt telefon:<br>061/111-11-11<br>Kontakt mejl:<br>damservice@gmail.com</p>
+            <p id="mobile">Kontakt telefon:<br>061/111-11-11<br>Kontakt imejl:<br>damservice@gmail.com</p>
             
         </div>
         </div>
+        <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
